@@ -465,6 +465,7 @@ void Session::on_refresh_metadata(PeriodicTask* task) {
 
 void Session::on_after_refresh_metadata(PeriodicTask* task) {
   // No-op.
+
 }
 
 void Session::refresh_metadata_callback(CassFuture* future, void* data) {
